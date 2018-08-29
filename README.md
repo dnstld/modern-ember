@@ -1,7 +1,19 @@
 # modern-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Steps
+
+1. Installing the latest Ember features 
+```
+npm install -g https://github.com/ember-cli/ember-cli.git
+```
+Result:
+```
+ember -v
+ember-cli: 3.4.0-beta.3
+node: 8.10.0
+os: darwin x64
+```
+
 
 ## Prerequisites
 
