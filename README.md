@@ -38,6 +38,25 @@ npm WARN lifecycle The node binary used for scripts is /Users/denistoledo/.asdf/
 Build successful (9104ms) – Serving on http://localhost:4200/
 ```
 
+4. Adding addons
+```
+ember install ember-decorators
+ember install ember-auto-import
+```
+Result:
+```
+npm: Installed ember-decorators
+installing ember-decorators
+  install package babel-eslint
+npm: Installed babel-eslint@^8.0.0
+  install addon @ember-decorators/babel-transforms@^2.0.0
+npm: Installed @ember-decorators/babel-transforms@^2.0.0
+Installed addon package.
+
+npm: Installed ember-auto-import
+Installed addon package.
+```
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
