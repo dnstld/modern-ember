@@ -14,7 +14,8 @@
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "start": "ember serve",
+    "generate": "EMBER_CLI_MODULE_UNIFICATION=true ember generate",
+    "start": "EMBER_CLI_MODULE_UNIFICATION=true ember serve",
     "test": "ember test"
   },
   "devDependencies": {

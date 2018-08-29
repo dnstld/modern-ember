@@ -23,6 +23,21 @@ Result:
 Success =)
 ```
 
+3. Setting up some NPM scripts
+```
+MODULE_UNIFICATION=true EMBER_CLI_MODULE_UNIFICATION=true ember new modern-ember
+```
+Result:
+```
+npm WARN lifecycle The node binary used for scripts is /Users/denistoledo/.asdf/shims/node but npm is using /Users/denistoledo/.asdf/installs/nodejs/8.10.0/bin/node itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
+
+> modern-ember@0.0.0 start /Users/denistoledo/Documents/workspace/online/_studies/modern-ember
+> EMBER_CLI_MODULE_UNIFICATION=true ember serve
+
+
+Build successful (9104ms) – Serving on http://localhost:4200/
+```
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
