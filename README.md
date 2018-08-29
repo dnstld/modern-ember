@@ -6,6 +6,7 @@
 ```
 npm install -g https://github.com/ember-cli/ember-cli.git
 ```
+
 Result:
 ```
 ember -v
@@ -18,6 +19,7 @@ os: darwin x64
 ```
 MODULE_UNIFICATION=true EMBER_CLI_MODULE_UNIFICATION=true ember new modern-ember
 ```
+
 Result:
 ```
 Success =)
@@ -27,6 +29,7 @@ Success =)
 ```
 MODULE_UNIFICATION=true EMBER_CLI_MODULE_UNIFICATION=true ember new modern-ember
 ```
+
 Result:
 ```
 npm WARN lifecycle The node binary used for scripts is /Users/denistoledo/.asdf/shims/node but npm is using /Users/denistoledo/.asdf/installs/nodejs/8.10.0/bin/node itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
@@ -43,6 +46,7 @@ Build successful (9104ms) – Serving on http://localhost:4200/
 ember install ember-decorators
 ember install ember-auto-import
 ```
+
 Result:
 ```
 npm: Installed ember-decorators
@@ -55,6 +59,23 @@ Installed addon package.
 
 npm: Installed ember-auto-import
 Installed addon package.
+```
+
+5. Creating components
+```
+yarn generate component my-component
+```
+
+Result:
+```
+yarn run v1.9.4
+$ EMBER_CLI_MODULE_UNIFICATION=true ember generate component my-component
+installing component
+  create src/ui/components/my-component/component.js
+  create src/ui/components/my-component/template.hbs
+installing component-test
+  create src/ui/components/my-component/component-test.js
+✨  Done in 2.42s.
 ```
 
 ## Prerequisites
