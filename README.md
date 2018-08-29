@@ -14,6 +14,14 @@ node: 8.10.0
 os: darwin x64
 ```
 
+2. Creating a new Ember app with flags for “module unification”
+```
+MODULE_UNIFICATION=true EMBER_CLI_MODULE_UNIFICATION=true ember new modern-ember
+```
+Result:
+```
+Success =)
+```
 
 ## Prerequisites
 
